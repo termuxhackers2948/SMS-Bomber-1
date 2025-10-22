@@ -44,10 +44,7 @@ class Bomber(object):
             [
                 "https://application2.billingsystem.ayantech.ir/WebServices/Core.svc/requestActivationCode", 
                     {"Parameters": {
-                        "ApplicationType": "Web",
-                        "ApplicationUniqueToken": "null",
-                        "ApplicationVersion": "1.0.0",
-                        "MobileNumber": self.number, 
+                        "ApplicationType"
                         "UniqueToken": "null"
                         }
                     }
